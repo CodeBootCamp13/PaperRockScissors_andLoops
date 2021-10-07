@@ -14,19 +14,19 @@ for ( var i = 0; i < fruits.length; i++ ) {
 
 // for loops over multi-dim arrays
 var students = [
-	[ 'eric', 'ryan', 'harrison', 'the', 'instructor' ],
-	[ 'meg', 'harrison' ],
-	[ 'isla', 'harrison' ],
+	[ 'eric', 'ryan', 'harrison', 'the', 'instructor' ], 
+	[ 'meg', 'harrison' ],  
+	[ 'isla', 'harrison', 'something'],
 	[ 'dexter', 'harrison' ],
-]
+];
 
 for ( var i = 0; i < students.length; i++ ) {
 	//console.log('i = ' + i);
 	//console.log(students[i]);
 
 	for ( var j = 0; j < students[i].length; j++ ) {
-		//console.log('j = ' + j);
-		//console.log(students[i][j]);
+	// 	//console.log('j = ' + j);
+	// 	//console.log(students[i][j]);
 	}
 
 	//console.log('restarting next loop');
@@ -84,7 +84,7 @@ while ( n <= 10 ) {
 	n = n + 1;
 
 	if ( n % 3 ) {
-		console.log('skipped');
+		//console.log('skipped');
 		continue;
 	}
 
@@ -112,20 +112,20 @@ var students = {
 };
 
 for ( var i = 0; i < Object.keys(students).length; i++ ) {
-	console.log(Object.keys(students)[i]);
+	//console.log(Object.keys(students)[i]);
 
-	console.log(students[ Object.keys(students)[i] ]);
+	//console.log(students[ Object.keys(students)[i] ]);
 }
 
 // for .. in
 // for looping through objects
 for ( var key in students ) {
-	console.log(' key ' + key + ' --> ' + students[key]);
+	//console.log(' key ' + key + ' --> ' + students[key]);
 }
 
 // Array.forEach()
 var fruits = ['apple', 'banana', 'grape', 'strawberry'];
 fruits.forEach(function(element) {
-	console.log(element);
+	//console.log(element);
 });
 
