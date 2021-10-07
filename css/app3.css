@@ -1,0 +1,23 @@
+.gameControls {
+	border: 1px solid black;
+	background-color: #ddd;
+	width: 250px;
+	padding: 15px;
+	float: left;
+}
+
+.gameControls h2,
+.gameResults h2 {
+	margin: 0; 
+	margin-bottom: 5px;
+	padding: 0;
+}
+
+.gameResults {
+	border: 1px solid black;
+	background-color: #ddd;
+	width: 450px;
+	padding: 15px;
+	margin-left: 10px;
+	float: left;
+}
